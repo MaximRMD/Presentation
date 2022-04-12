@@ -34,6 +34,11 @@ body {
 	font-weight: 300;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+}
+
 a {
 	text-decoration: none;
 	color: #fff;
@@ -171,3 +176,7 @@ video.frame-media_left {
 	background-image: rgba(255, 255, 255, 0.3);
 	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
   }
+
+  .frame__item {
+    margin-left: 18px;
+}
