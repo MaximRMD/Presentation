@@ -100,7 +100,8 @@ video.frame-media {
 	height: calc(var(--index) * var(--side-small));
 }
 video.frame-media_right {
-	left: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
+	left: calc(var(--side-big) / 1.5 * var(--index) + var(--gutter));
+	width: 711px;
 }
 video.frame-media_left {
 	right: calc(var(--side-big) / 2 * var(--index) + var(--gutter));
